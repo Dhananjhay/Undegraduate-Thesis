@@ -16,6 +16,6 @@ To get a taste of how convolutional neural network works, directory `CNN trainin
 
 Contains 4 directories:
 1. 0-1 dir neglects overlapping bubbles and treat them as a part of a single bubble (main emphasis of the study)
-2. >1 takes into account overlapping region (needed a completely new research study as U-NET model based on 0-1 technique didn't perform as well)
+2. '>'1 takes into account overlapping region (needed a completely new research study as U-NET model based on 0-1 technique didn't perform as well)
 3. NGC0628 dir contains the ground truths to train the model
 4. dataset dir provides an example of the training set
