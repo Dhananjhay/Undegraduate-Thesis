@@ -14,7 +14,7 @@ To get a taste of how convolutional neural network works, directory `CNN trainin
 
 ## U-NET architecture
 
-Contains 4 directories:
+`U-Net` contains 4 directories:
 1. 0-1 dir showcases a technique where overlapping bubble regions are treated as a single bubble large bubble with a not elliptical or a circular morphology
   a. Main emphasis of the research study was improving this part of the spectrum
   b. Subdir 'Preparing DataSets' consists of python automation scripts capable of
