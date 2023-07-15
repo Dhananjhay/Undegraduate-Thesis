@@ -15,7 +15,12 @@ To get a taste of how convolutional neural network works, directory `CNN trainin
 ## U-NET architecture
 
 Contains 4 directories:
-1. 0-1 dir neglects overlapping bubbles and treat them as a part of a single bubble (main emphasis of the study)
-2. '>'1 takes into account overlapping region (needed a completely new research study as U-NET model based on 0-1 technique didn't perform as well)
-3. NGC0628 dir contains the ground truths to train the model
-4. dataset dir provides an example of the training set
+1. 0-1 dir showcases a technique where overlapping bubble regions are treated as a single bubble large bubble with a not elliptical or a circular morphology
+  a. Main emphasis of the research study was improving this part of the spectrum
+  b. Subdir 'Preparing DataSets' consists of python automation scripts capable of
+     preparing training images.
+3. '>1' takes into account overlapping region (needed a completely new research study as U-NET model based on 0-1 technique didn't perform as well)
+4. NGC0628 dir contains the ground truths to train the model
+5. dataset dir provides an example of the training set
+
+### Every bit of this code is adaptable according to the idiosyncratic purpose. 
