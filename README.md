@@ -18,6 +18,7 @@ To get a taste of how convolutional neural network works, directory `CNN trainin
 1. 0-1 dir showcases a technique where overlapping bubble regions are treated as a single bubble large bubble with a not elliptical or a circular morphology
    
      1.1 Main emphasis of the research study was improving this part of the spectrum
+   
      1.2 Subdir 'Preparing DataSets' consists of python automation scripts capable of
           preparing training images.
    
