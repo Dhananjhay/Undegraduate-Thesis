@@ -23,4 +23,4 @@ To get a taste of how convolutional neural network works, directory `CNN trainin
 4. NGC0628 dir contains the ground truths to train the model
 5. dataset dir provides an example of the training set
 
-### Every bit of this code is adaptable according to the idiosyncratic purpose. 
+### Every bit of this code is adaptable according to the idiosyncratic nature of study. 
